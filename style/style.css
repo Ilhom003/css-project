@@ -1,0 +1,143 @@
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    transition: all 2s ease;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(0.55);
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: #060D25;
+    transition: all 2s ease;
+}
+li:hover{
+    transform: scale(0.95);
+    color: #485BFF;
+}
+nav button{
+    width: 90px;
+    height: 19px;
+    margin-left: auto;
+    border-radius: 50px;
+    border: none;
+    color: #485BFF;
+    background: #EDEFFF;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+nav button:hover{
+    transform: scale(0.85);
+    color: #EDEFFF ;
+    background: #485BFF;
+}
+
+/* main section */
+
+.cases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    /* background: red; */
+    height: 1100px;
+    overflow: hidden;
+}
+.cases__img1{
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 180px;
+    top:140px;
+}
+.cases__img2{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.cases__img3{
+    position: absolute;
+    left: 30px;
+    top: 400px;
+}
+.cases__img4{
+    position: absolute;
+    right: 120px;
+    top: 390px;
+}
+.cases__img5{
+    position: relative;
+    top: 70px;
+}
+.cases__img6{
+    position: absolute;
+    left: 80px;
+    top: 750px;
+}
+.cases__img7{
+    position: absolute;
+    right: 20px;
+    top: 700px;
+}
+.cases__img8{
+    position: absolute;
+    z-index:-1;
+    left: -40px;
+    top: 650px;
+    /* display: none; */
+}
+.cases .cases__pr1{
+    width: 356px;
+    color: #59617D;
+    font-size: 18px;
+}
+.cases .cases__pr2{
+    width: 517px;
+    color: #59617D;
+    font-size: 18px;
+    margin-top: 35PX;
+}
+.cases h1{
+    width: 480px;
+    font-size: 48px;
+    color: #060D25;
+    margin-top: 20PX;
+}
+.cases button{
+    Width: 246px;
+    Height:33px;
+    border-radius: 50px;
+    border:none;
+    margin-top: 20px;
+    color: #FFFFFF;
+    background: #485BFF;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+button:hover {
+    transform: scale(0.85);
+    color: #485BFF ;
+    background: #EDEFFF;
+}
